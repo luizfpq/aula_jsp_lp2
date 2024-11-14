@@ -1,36 +1,39 @@
 package com.example.pessoa;
 
 public class Pessoa {
-    private int idPessoa;
 
+    private int idPessoa;
     private String nome;
     private String email;
 
+/**
+ * Getters & Setters
+ */
 
 
-    /*
-     * Getters And Setters
-     */
     public int getIdPessoa() {
-        return idPessoa;
+        return this.idPessoa;
     }
-    public String getNome() {
-        return nome;
-    }
-    public String getEmail() {
-        return email;
-    }
-    
+
     public void setIdPessoa(int idPessoa) {
         this.idPessoa = idPessoa;
     }
+
+    public String getNome() {
+        return this.nome;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public String getEmail() {
+        return this.email;
+    }
+
     public void setEmail(String email) {
         this.email = email;
     }
 
-    
-}
 
+}
