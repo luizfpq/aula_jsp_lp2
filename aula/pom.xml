@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
@@ -49,6 +49,19 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!-- Troque pelo seu banco de dados -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.33</version>
+    </dependency>
+ <!-- Troque pelo seu banco de dados -->
+    <dependency>
+      <groupId>org.ini4j</groupId>
+      <artifactId>ini4j</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+
   </dependencies>
 
   <build>
